@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio Jakubowicz Ewen</title>
+    <link rel="stylesheet" href="./CSS/StylePagePrincipal.css" />
+  </head>
+
+  <body>
+    <script src="./JS/Boutton.js"></script>
+
+    <header>
+      <div class="container">
+        <h1><span>P</span>portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div class="container">
+        <h2>Bonjour, je suis <span>Jakubowicz Ewen</span></h2>
+        <p>Administrateur Réseau.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>À propos de moi</h2>
+        <p>
+          Avec un BAC Proffesionnel Système numérique et actuellement en étude
+          en BTS SIO option SISR, j'ai pour objectif de maitriser la création et
+          la maintenance de réseau au sein de différents entreprise.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Informations compémentaire</h2>
+        <div class="project-grid">
+          <div class="project-card" onclick="redirection('Stage.html')">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEZOrr6EwSl94TLGZiS8E6jO5-d9n2S4sxA&s"
+              alt="Projet 1"
+            />
+            <h3>Stage</h3>
+            <p>Stage Effectuer au cours de ma scolarité</p>
+          </div>
+          <div class="project-card" onclick="redirection('Cv.html')">
+            <img
+              src="https://www.esas-formation.fr/wp-content/uploads/2018/10/cv-esas-accompagnement-1200x627.jpg"
+              alt="Projet 2"
+            />
+            <h3>Curiculum Vitea</h3>
+            <p>CV personel, mis à jour</p>
+          </div>
+          <div class="project-card" onclick="redirection('Loisir.html')">
+            <img
+              src="https://files.oaiusercontent.com/file-U9cWMN07A167OZ7IXnaPvNIj?se=2024-10-10T12%3A53%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De7e8828f-e2bd-45e6-9c83-f14b44b85224.webp&sig=JzdrupBkk3vW%2BoGtlraOvK3z8cPQc7jxi/ebQ2bCywo%3D"
+              alt="Projet 3"
+            />
+            <h3>Loisirs</h3>
+            <p>différents Loisirs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contactez-moi</h2>
+        <p>
+          Intéressé par une collaboration ou simplement discuter d'un projet ?
+          Envoyez-moi un message.
+        </p>
+        <form>
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+          <textarea placeholder="Votre message" required></textarea>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Mon Portfolio. Conçu avec passion.</p>
+      </div>
+    </footer>
+    <script src="Boutton.js"></script>
+  </body>
+</html>

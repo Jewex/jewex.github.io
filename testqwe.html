@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio de Loisirs</title>
+    <link rel="stylesheet" href="./CSS/testqwen.css">
+</head>
+<body class="font-sans">
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" class="text-white font-bold">Mon Portfolio</a>
+        </div>
+        <ul class="flex space-x-4">
+            <li><a href="#accueil" class="text-white hover:text-gray-300">Accueil</a></li>
+            <li><a href="#loisirs" class="text-white hover:text-gray-300">Loisirs</a></li>
+            <li><a href="#contact" class="text-white hover:text-gray-300">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="accueil" class="hero">
+        <h1>Bienvenue dans mon Portfolio</h1>
+        <p>Je suis un passionné des loisirs créatifs et culturels.</p>
+    </section>
+
+    <section id="loisirs" class="py-8 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Mes Loisirs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="loiur-item bg-white p-4 rounded-lg shadow-md hover:bg-gray-50 transition-all
+duration-300">
+                    <img src="images/peinture.jpg" alt="Peinture" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-semibold">Peinture</h3>
+                    <p>Description du projet de peinture.</p>
+                </div>
+                <div class="loiur-item bg-white p-4 rounded-lg shadow-md hover:bg-gray-50 transition-all
+duration-300">
+                    <img src="images/cuisine.jpg" alt="Cuisine" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-semibold">Cuisine</h3>
+                    <p>Description du projet de cuisine.</p>
+                </div>
+                <div class="loiur-item bg-white p-4 rounded-lg shadow-md hover:bg-gray-50 transition-all
+duration-300">
+                    <img src="images/musique.jpg" alt="Musique" class="w-full h-auto mb-4">
+                    <h3 class="text-xl font-semibold">Musique</h3>
+                    <p>Description du projet musical.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-gray-800 text-center text-white">
+        <p>&copy; 2023 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

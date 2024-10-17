@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation des Loisirs Modernes</title>
+    <link rel="stylesheet" href="./CSS/StylePageLoisir.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <div id="loader" class="loader"></div>
+    
+    <header>
+        <div class="navbar">
+            <h1 class="typing-animation" id="dynamic-text">Mes Loisirs</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+        <nav id="overlay-menu">
+            <ul>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#sport">Sport</a></li>
+                <li><a href="#musique">Musique</a></li>
+                <li><a href="#jeux-video">Jeux Vidéo</a></li>
+                <li><a href="#lecture">Lecture</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()">Mode Sombre/Clair</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="about" class="about-me" data-aos="fade-right">
+            <h2>À propos de moi</h2>
+            <p>Passionné par la découverte, j'aime m'investir dans divers loisirs qui me permettent de m'évader et de m'épanouir au quotidien.</p>
+        </section>
+
+        <section id="sport" class="hobby" data-aos="fade-up">
+            <h2>Sport</h2>
+            <div class="hobby-content">
+                <p>Pratiquer le sport est un excellent moyen de rester en forme et de se détendre.</p>
+                <button onclick="toggleDetails('sport')">Voir plus</button>
+                <div class="details" id="sport-details">
+                    <p>Le sport inclut des activités comme la course, le football, le basketball, et bien plus encore !</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="musique" class="hobby" data-aos="fade-up">
+            <h2>Musique</h2>
+            <div class="hobby-content">
+                <p>La musique est une passion qui enrichit la vie quotidienne.</p>
+                <button onclick="toggleDetails('musique')">Voir plus</button>
+                <div class="details" id="musique-details">
+                    <p>Jouer de la guitare, écouter du jazz ou composer de nouvelles mélodies fait partie de mes loisirs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jeux-video" class="hobby" data-aos="fade-up">
+            <h2>Jeux Vidéo</h2>
+            <div class="hobby-content">
+                <p>Les jeux vidéo permettent de s'évader et de découvrir de nouveaux mondes virtuels.</p>
+                <button onclick="toggleDetails('jeux-video')">Voir plus</button>
+                <div class="details" id="jeux-video-details">
+                    <p>Jeux de rôle, jeux de stratégie, ou simplement jeux d'action, ils sont une source de divertissement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lecture" class="hobby" data-aos="fade-up">
+            <h2>Lecture</h2>
+            <div class="hobby-content">
+                <p>La lecture permet de voyager et de s'évader à travers les mots.</p>
+                <button onclick="toggleDetails('lecture')">Voir plus</button>
+                <div class="details" id="lecture-details">
+                    <p>Des romans classiques aux bandes dessinées, chaque livre est une aventure.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mes Loisirs. Tous droits réservés.</p>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./JS/scriptsPageLoisir.js"></script>
+</body>
+</html>

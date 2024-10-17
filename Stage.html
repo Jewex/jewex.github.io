@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation de mes Stages</title>
+    <link rel="stylesheet" href="./CSS/StylePageStage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Mes <span>Stages</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#stages">Mes Stages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos de mes Stages</h2>
+            <p>
+                Tout au long de mon parcours, j'ai réalisé plusieurs stages dans différents secteurs. Ces expériences m'ont permis de développer des compétences variées, d'enrichir mes connaissances et de collaborer avec des professionnels passionnés.
+            </p>
+        </div>
+    </section>
+
+    <section id="stages" class="section">
+        <div class="container">
+            <h2>Mes Stages</h2>
+            <div class="stage-grid">
+                <div class="stage-card">
+                    <img src="https://via.placeholder.com/200" alt="Stage 1">
+                    <h3>Stage chez Entreprise ABC</h3>
+                    <p><strong>Durée :</strong> 3 mois (juin - août 2024)</p>
+                    <p><strong>Encadrant :</strong> Mme. Sophie Martin</p>
+                    <button class="btn" onclick="toggleDetails('details-1')">Afficher plus de détails</button>
+                    <div id="details-1" class="details hidden">
+                        <h4>Tâches réalisées</h4>
+                        <ul>
+                            <li>Analyse de marché sur les tendances actuelles.</li>
+                            <li>Création de supports de communication pour les réseaux sociaux.</li>
+                            <li>Organisation de campagnes publicitaires.</li>
+                        </ul>
+                        <h4>Compétences développées</h4>
+                        <ul>
+                            <li>Analyse de données</li>
+                            <li>Gestion de projet</li>
+                            <li>Création de contenu</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Ajouter d'autres stages ici en suivant la même structure -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jean Dupont - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="./JS/scriptsPageStage.js"></script>
+</body>
+</html>
