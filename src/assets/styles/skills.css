@@ -1,0 +1,64 @@
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 90rem;
+  max-height: 10rem;
+}
+
+.logo {
+  height: 3.75rem;
+  padding: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+.HTML,
+.CSS,
+.JavaScript,
+.Tailwind,
+.VsC,
+.VsStudio,
+.NodeJS,
+.VueJs {
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+  padding: 0.35em;
+}
+
+.skills_practice {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.skills_name {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 670;
+}
+
+.practice {
+  display: flex;
+  align-items: center;
+  color: rgb(167, 167, 167);
+  font-size: 1.15rem;
+  font-weight: 670;
+  letter-spacing: -0.5px;
+  padding: 0.25rem 0 1.25rem 0;
+}
+
+.skill-level {
+  width: 160px;
+  height: 10px;
+  background-color: #6b6969;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  background-color: rgb(48, 201, 240);
+  height: 100%;
+}

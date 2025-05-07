@@ -1,0 +1,128 @@
+#parent_site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  padding: 0 0 2rem 0;
+}
+
+.person_name {
+  display: flex;
+  justify-content: start;
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0 0 0 3rem;
+}
+
+.link_social_media {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-github,
+.button-linkedin {
+  display: flex;
+}
+
+.container_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.principal_container {
+  display: flex;
+  height: auto;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.name-presentation {
+  display: flex;
+  justify-content: start;
+  color: aliceblue;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -1.25px;
+  margin: 1rem 0.5rem 0rem 3rem;
+}
+
+.title_name {
+  display: flex;
+  justify-content: start;
+  color: aliceblue;
+  font-size: 5rem;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+  text-decoration-color: rgb(48, 201, 240);
+  letter-spacing: -1.2px;
+  margin: 0rem 0.5rem 1rem 3rem;
+}
+
+.description {
+  display: flex;
+  color: aliceblue;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0rem 0.5rem 1rem 3rem;
+}
+
+.subdivision {
+  border: 0.1px solid;
+  color: aliceblue;
+  align-self: center;
+  margin: 3rem;
+}
+
+.second_container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0 3rem 0;
+  gap: 2rem;
+}
+
+.autres_informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.veille_technologique {
+  display: flex;
+  gap: 1rem;
+}
+
+.title_veille,
+.title_cv {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: 1.55rem;
+  font-weight: 750;
+  text-decoration: underline;
+  text-decoration-thickness: 1s.5px;
+  text-decoration-color: rgb(48, 201, 240);
+  letter-spacing: -1.2px;
+  padding: 0 0 0.5rem 0;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

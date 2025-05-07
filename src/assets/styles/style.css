@@ -1,0 +1,20 @@
+/*Reset all and define font*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-family: url(../fonts/libre-franklin-v18-latin-regular.woff2);
+}
+
+/* Disable scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Style Body*/
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21 21 21);
+  user-select: none;
+}

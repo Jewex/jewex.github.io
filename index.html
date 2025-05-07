@@ -2,99 +2,179 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/global.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Portfolio Jakubowicz Ewen</title>
-    <link rel="stylesheet" href="./CSS/StylePagePrincipal.css" />
+        <title>JAKUBOWICZ Ewen</title>
   </head>
-
   <body>
-    <script src="./JS/Boutton.js"></script>
-
-    <header>
-      <div class="container">
-        <h1><span>P</span>ortfolio</h1>
-        <nav>
-          <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section id="hero">
-      <div class="container">
-        <h2>Bonjour, je suis <span>Jakubowicz Ewen</span></h2>
-        <p>Administrateur Réseau.</p>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <h2>À propos de moi</h2>
-        <p>
-          Avec un BAC Proffesionnel Système numérique et actuellement en étude
-          en BTS SIO option SISR, j'ai pour objectif de maitriser la création et
-          la maintenance de réseau au sein de différents entreprise.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Informations compémentaire</h2>
-        <div class="project-grid">
-          <div class="project-card" onclick="redirection('Stage.html')">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEZOrr6EwSl94TLGZiS8E6jO5-d9n2S4sxA&s"
-              alt="Projet 1"
-            />
-            <h3>Stage</h3>
-            <p>Stage Effectuer au cours de ma scolarité</p>
+    <section id="parent_site">
+      <div class="nav_bar">
+        <p class="person_name">JAKUBOWICZ Ewen</p>
+        <div class="link_social_media">
+          <div class="linkedin">
+            <button class="button-linkedin">
+              <a href="http://www.linkedin.com/in/ewen-jakubowicz-pro" class="link-linkedin" target="_blank">Linkedin</a>
+            </button>
           </div>
-          <div class="project-card" onclick="redirection('Cv.html')">
-            <img
-              src="https://www.esas-formation.fr/wp-content/uploads/2018/10/cv-esas-accompagnement-1200x627.jpg"
-              alt="Projet 2"
-            />
-            <h3>Curiculum Vitea</h3>
-            <p>CV personel, mis à jour</p>
-          </div>
-          <div class="project-card" onclick="redirection('Loisir.html')">
-            <img
-              src="https://files.oaiusercontent.com/file-U9cWMN07A167OZ7IXnaPvNIj?se=2024-10-10T12%3A53%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De7e8828f-e2bd-45e6-9c83-f14b44b85224.webp&sig=JzdrupBkk3vW%2BoGtlraOvK3z8cPQc7jxi/ebQ2bCywo%3D"
-              alt="Projet 3"
-            />
-            <h3>Loisirs</h3>
-            <p>différents Loisirs</p>
+          <div class="github">
+            <button class="button-github">
+              <a class="link_github" href="https://github.com/Jewex" target="_blank"> Github </a>
+            </button>
           </div>
         </div>
       </div>
+      <section class="container_description">
+        <div class="principal_container">
+          <div class="presentation">
+            <p class="name-presentation">Bienvenue ! Je m'appelle</p>
+            <p class="title_name">JAKUBOWICZ Ewen</p>
+            <p class="description">Résident en France, administrateur réseau et télécom en apprentissage.</p>
+          </div>
+        </div>
+        <hr class="subdivision" />
+        <div class="competences">
+          <!--Styles des skills dans le src/assets/styles/skills.css-->
+          <section class="second_container">
+            <!--Styles des skills dans le src/assets/styles/skills.css-->
+            <div class="skills">
+              <div class="HTML">
+                <div class="skills_practice">
+                  <p class="skills_name">HTML</p>
+                  <p class="practice">3 mois d'expérience</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 10%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/html_logo.png" />
+              </div>
+              <div class="CSS">
+                <div class="skills_practice">
+                  <p class="skills_name">CSS</p>
+                  <p class="practice">3 mois d'expérience</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 5%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/CSS3_logo.png" />
+              </div>
+              <div class="JavaScript">
+                <div class="skills_practice">
+                  <p class="skills_name">Cisco | Routeur, Switch</p>
+                  <p class="practice">4 ans d'expériences</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 60%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/logocisco.png" />
+              </div>
+              <div class="Tailwind">
+                <div class="skills_practice">
+                  <p class="skills_name">HP | Routeur, Switch</p>
+                  <p class="practice">3 ans d'expérinces</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 45%"></div>
+                  </div>
+                </div>
+                <img src="src/assets/imgs/hp_logo.png" class="logo">
+            </div>
+          </section>
+          <section class="second_container">
+            <!--Styles des skills dans le src/assets/styles/skills.css-->
+            <div class="skills">
+              <div class="VsC">
+                <div class="skills_practice">
+                  <p class="skills_name">Visual Studio Code</p>
+                  <p class="practice">3 mois d'expérience</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 15%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/VsCode.png" />
+              </div>
+              <div class="VsStudio">
+                <div class="skills_practice">
+                  <p class="skills_name">Windows Serveur</p>
+                  <p class="practice">4 ans d'expériences</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 50%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/windows_server_logo.png" />
+              </div>
+              <div class="NodeJS">
+                <div class="skills_practice">
+                  <p class="skills_name">Linux</p>
+                  <p class="practice">1 an d'expérience</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 25%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/linux_logo.png" />
+              </div>
+              <div class="NodeJS">
+                <div class="skills_practice">
+                  <p class="skills_name">PHP</p>
+                  <p class="practice">En cours de formation</p>
+                  <div class="skill-level">
+                    <div class="skill-percent" style="width: 15%"></div>
+                  </div>
+                </div>
+                <img class="logo" src="src/assets/imgs/php_logo.png" />
+              </div>
+            </section>
+            <section class="second_container">
+              <!--Styles des skills dans le src/assets/styles/skills.css-->
+              <div class="skills">
+                <div class="VsC">
+                  <div class="skills_practice">
+                    <p class="skills_name">MariaDB</p>
+                    <p class="practice">En cours de formation</p>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 10%"></div>
+                    </div>
+                  </div>
+                  <img class="logo" src="src/assets/imgs/mariadb_logo.png" />
+                </div>
+                <div class="VsStudio">
+                  <div class="skills_practice">
+                    <p class="skills_name">Mysql</p>
+                    <p class="practice">En cours de formation</p>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 10%"></div>
+                    </div>
+                  </div>
+                  <img class="logo" src="src/assets/imgs/mysql_logo.png" />
+                </div>
+                <div class="NodeJS">
+                  <div class="skills_practice">
+                    <p class="skills_name">LAMP</p>
+                    <p class="practice">6 mois d'epérience</p>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 40%"></div>
+                    </div>
+                  </div>
+                  <img class="logo" src="src/assets/imgs/lamp_logo.png" />
+                </div>
+            </section>
+            <hr class="subdivision" />
+        <div class="autres_informations">
+          <div class="veille_technologique">
+            <!-- Style du boutton dans le src/assets/button.css -->
+            <div class="btn_veille-techno">
+              <button class="veille_techno">
+                <a class="link_veille-techno" href="https://jewex.github.io/Veille-techno.github.io-main/" target="_blank">Veille technologique</a>
+              </button>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="btn_link_cv">
+              <button class="btn_cv">
+                <a class="link_cv" href="cv.html" target="_parent">Direction mon CV !</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contactez-moi</h2>
-        <p>
-          Intéressé par une collaboration ou simplement discuter d'un projet ?
-          Envoyez-moi un message.
-        </p>
-        <form>
-          <input type="text" placeholder="Votre nom" required />
-          <input type="email" placeholder="Votre email" required />
-          <textarea placeholder="Votre message" required></textarea>
-          <button type="submit" class="btn">Envoyer</button>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Mon Portfolio. Conçu avec passion.</p>
-      </div>
-    </footer>
-    <script src="Boutton.js"></script>
   </body>
 </html>

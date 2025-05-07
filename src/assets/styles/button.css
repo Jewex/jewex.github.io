@@ -1,0 +1,113 @@
+/* Style button */
+.veille_technologique {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_veille-techno,
+.btn_link_cv,
+.github,
+.retour_arrière,
+.linkedin,
+.pdf_cv,
+.btn_portfolio_dev {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.link_github,
+.link_index,
+.link-linkedin,
+.link_pdf_cv {
+  display: flex;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.link_veille-techno,
+.link_cv,
+.link_portfolio_dev {
+  display: flex;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.veille_techno,
+.btn_cv,
+.button-github,
+.button-acceuil,
+.button-linkedin,
+.link_download-cv,
+.portfolio_dev {
+  font-size: 2rem;
+  color: aliceblue;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 1s;
+  transition-property: color;
+}
+
+.btn_cv:focus,
+.btn_cv:hover,
+.link_veille-techno:focus,
+.link_veille-techno:hover,
+.link_github:focus,
+.link_github:hover,
+.button-acceuil:focus,
+.button-acceuil:hover,
+.button-linkedin:focus,
+.button-linkedin:hover,
+.link_pdf_cv:focus,
+.link_pdf_cv:hover,
+.link_portfolio_dev:focus,
+.link_portfolio_dev:hover {
+  color: aliceblue;
+}
+
+.btn_cv:focus:after,
+.btn_cv:hover:after,
+.veille_techno:focus:after,
+.veille_techno:hover:after,
+.button-github:focus:after,
+.button-github:hover:after,
+.button-acceuil:focus:after,
+.button-acceuil:hover:after,
+.button-linkedin:focus:after,
+.button-linkedin:hover:after,
+.link_pdf_cv:focus:after,
+.link_pdf_cv:hover:after,
+.link_portfolio_dev:focus:after,
+.link_portfolio_dev:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.btn_cv:after,
+.veille_techno:after,
+.button-github:after,
+.button-acceuil:after,
+.button-linkedin:after,
+.link_pdf_cv:after,
+.link_portfolio_dev:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2.5px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: rgb(48, 201, 240);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 1s;
+  transition-property: width, left;
+}
